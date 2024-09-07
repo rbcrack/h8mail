@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.13.0a1-alpine
 
 RUN apk add --update --no-cache git bash
 WORKDIR h8mail
